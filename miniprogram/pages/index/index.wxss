@@ -1,0 +1,36 @@
+/* pages/index/index.wxss */
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+  color: #aaa;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  background: url('https://7465-test-5gcfbcpiacb8eaf1-1304936846.tcb.qcloud.la/%E7%BB%93%E5%B0%BE.jpg?sign=95fbdd01cbd2cc61281d512f19482a07&t=1621352426');
+  background-size: 100% 100%;
+} 

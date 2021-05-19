@@ -1,0 +1,39 @@
+/* pages/answer/answer.wxss */
+.input{
+  padding-left: 10px;
+  height: 44px;
+}
+
+.inputView{
+  border:  1px solid;
+  /* border-radius: 40px; */
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 100px;
+}
+
+.pic{
+  height: 100%;
+  width: 100%;
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 100rpx 0;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+.container{
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+  background: url('https://7465-test-5gcfbcpiacb8eaf1-1304936846.tcb.qcloud.la/%E7%BB%93%E5%B0%BE.jpg?sign=95fbdd01cbd2cc61281d512f19482a07&t=1621352426');
+  background-size: 100% 100%;
+  background-size: cover;
+}

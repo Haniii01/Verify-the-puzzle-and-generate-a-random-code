@@ -1,0 +1,17 @@
+<!--pages/answer/answer.wxml-->
+<view class="container">
+  <view class="inputView">
+    <input class="input" placeholder="请在这里输入谜底" placeholder-style="color: #aaa" bindinput="listenerPasswordInput"/>
+  </view>
+  <button style="margin-top: 50rpx" type="default"
+bindtap="listenerLogin" >{{motto}}</button>
+  <view class="pic" style="height: 100%;">
+    <image wx:if="{{!answer1}}" src="../../images/55.png" mode="aspectFill" style="width: 300rpx; height: 300rpx; " ></image>
+    <image wx:if="{{!answer2}}" src="../../images/11.png" mode="aspectFill" style="width: 300rpx; height: 300rpx; " ></image>
+    <image wx:if="{{!answer3}}" src="../../images/22.png" mode="aspectFill" style="width: 300rpx; height: 300rpx; " ></image>
+    <image wx:if="{{!answer4}}" src="../../images/33.png" mode="aspectFill" style="width: 300rpx; height: 300rpx; " ></image>
+    <image wx:if="{{!answer5}}" src="../../images/44.png" mode="aspectFill" style="width: 300rpx; height: 300rpx; "  ></image>
+    <image wx:else src="../../images/66.png" mode="aspectFill" style="width: 300rpx; height: 300rpx; "></image>
+  <!-- <image style="width: 200px; height: 200px;" mode="aspectFill" -->
+  </view>
+</view>
